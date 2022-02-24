@@ -50,7 +50,7 @@ function ImageRow() {
             </MDBRipple>
             <div>
               <a href="/pendants" className="image-categories text-capitilise">
-                Pendants
+                Diaries
               </a>
             </div>
             <figcaption>Discover</figcaption>
@@ -73,7 +73,7 @@ function ImageRow() {
             </MDBRipple>
             <div>
               <a href="/pendants" className="image-categories text-capitilise">
-                Pendants
+                WallFrames
               </a>
             </div>
             <figcaption>Discover</figcaption>
@@ -98,7 +98,7 @@ function ImageRow() {
             </MDBRipple>
             <div>
               <a href="/pendants" className="image-categories text-capitilise">
-                Pendants
+                Rings
               </a>
             </div>
             <figcaption>Discover</figcaption>
@@ -121,7 +121,7 @@ function ImageRow() {
             </MDBRipple>
             <div>
               <a href="/pendants" className="image-categories text-capitilise">
-                Pendants
+                Necklaces
               </a>
             </div>
             <figcaption>Discover</figcaption>
@@ -144,7 +144,7 @@ function ImageRow() {
             </MDBRipple>
             <div>
               <a href="/pendants" className="image-categories text-capitilise">
-                Pendants
+                Accesories
               </a>
             </div>
             <figcaption>Discover</figcaption>

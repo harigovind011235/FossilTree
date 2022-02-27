@@ -1,6 +1,7 @@
 main{
     min-height: 80vh;
     margin: auto;
+    font-family: "MangoSans";
 }
 
 h1{
@@ -28,3 +29,17 @@ h3{
   }
 }
 
+@font-face {
+  font-family: 'MangoSans';
+  src: local('MangoSans'), url(./assets/fonts/mangosans2.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MangoSans';
+  src: local('MangoSans'), url(./assets/fonts/mangosans1.eot) format('eot');
+}
+
+@font-face {
+  font-family: 'MangoSans';
+  src: local('MangoSans'), url(./assets/fonts/mangosans5.woff) format('woff');
+}

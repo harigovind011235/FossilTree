@@ -4,6 +4,7 @@ import { Navbar, Nav, Container, Row, NavDropdown } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
+import fossiltreelogo from "/Users/harigovind/Documents/webappprojects/fossiltree/proshop_django/frontend/src/assets/images/fossiltreelogo.png";
 
 function Header() {
 
@@ -21,7 +22,14 @@ function Header() {
             <Navbar bg="black" variant="black" expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand>FOSSIL TREE</Navbar.Brand>
+                        <Navbar.Brand href="#home">
+                            <img
+                                src={fossiltreelogo}
+                                width="130"
+                                className="d-inline-block align-top"
+                                alt="fossiltreelogo"
+                            />
+                        </Navbar.Brand>
                     </LinkContainer>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,6 +37,10 @@ function Header() {
 
                         <Nav className="ml-auto">
 
+
+                            <LinkContainer to='/cart'>
+                                <Nav.Link ><i className="fas fa-book-open"></i> About Us</Nav.Link>
+                            </LinkContainer>
                             <LinkContainer to='/cart'>
                                 <Nav.Link ><i className="fas fa-shopping-cart"></i>Cart</Nav.Link>
                             </LinkContainer>
@@ -43,10 +55,10 @@ function Header() {
 
                                 </NavDropdown>
                             ) : (
-                                    <LinkContainer to='/login'>
-                                        <Nav.Link><i className="fas fa-user"></i>Login</Nav.Link>
-                                    </LinkContainer>
-                                )}
+                                <LinkContainer to='/login'>
+                                    <Nav.Link><i className="fas fa-user"></i>Login</Nav.Link>
+                                </LinkContainer>
+                            )}
 
 
                             {userInfo && userInfo.isAdmin && (

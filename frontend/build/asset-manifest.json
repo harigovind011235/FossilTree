@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.039c8ef6.css",
-    "main.js": "/static/js/main.23065beb.js",
+    "main.css": "/static/css/main.7b330c1c.css",
+    "main.js": "/static/js/main.0a31665d.js",
     "static/js/377.9e469038.chunk.js": "/static/js/377.9e469038.chunk.js",
+    "static/media/fossiltreelogo.png": "/static/media/fossiltreelogo.228dac075f448bfd338a.png",
     "static/media/mangomodel4.jpeg": "/static/media/mangomodel4.2f9474fd07e8d4eb071a.jpeg",
     "static/media/resized2.jpeg": "/static/media/resized2.e58df6c949f89bbf3401.jpeg",
     "static/media/fossilimg8.jpeg": "/static/media/fossilimg8.42bfe77a818e834e706e.jpeg",
     "static/media/fossilimg4.jpeg": "/static/media/fossilimg4.c2d8d6d57c809076212b.jpeg",
+    "static/media/mangosans1.eot": "/static/media/mangosans1.d371fb98a734de4ca0d2.eot",
+    "static/media/mangosans2.ttf": "/static/media/mangosans2.ffd8be21ec855ed136a1.ttf",
     "static/media/fossilimg3.jpeg": "/static/media/fossilimg3.e940914c8c54db6a9b22.jpeg",
+    "static/media/mangosans5.woff": "/static/media/mangosans5.8588ac8000e7dbff34a6.woff",
     "index.html": "/index.html",
-    "main.039c8ef6.css.map": "/static/css/main.039c8ef6.css.map",
-    "main.23065beb.js.map": "/static/js/main.23065beb.js.map",
+    "main.7b330c1c.css.map": "/static/css/main.7b330c1c.css.map",
+    "main.0a31665d.js.map": "/static/js/main.0a31665d.js.map",
     "377.9e469038.chunk.js.map": "/static/js/377.9e469038.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.039c8ef6.css",
-    "static/js/main.23065beb.js"
+    "static/css/main.7b330c1c.css",
+    "static/js/main.0a31665d.js"
   ]
 }
